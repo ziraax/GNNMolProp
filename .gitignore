@@ -1,0 +1,10 @@
+/teamspace/studios/this_studio/.lightning_studio
+.lightning_studio
+/.cursor-server
+/.vscode-server
+/.wget-hsts
+/.windsurf-server
+
+
+__pycache__/
+

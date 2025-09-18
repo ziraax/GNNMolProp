@@ -1,0 +1,13 @@
+# Core dependencies
+torch>=1.9.0
+torch-geometric>=2.0.0
+scikit-learn>=1.0.0
+numpy>=1.21.0
+
+# Chemistry
+rdkit-pypi>=2022.3.0
+deepchem>=2.6.0
+
+# Optional: Development
+pytest>=6.2.0
+black>=21.0.0
