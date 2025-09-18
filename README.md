@@ -1,7 +1,7 @@
 # Molecular Property Prediction - Modular Package
 
 ## Overview
-A professional-grade, modular implementation of molecular property prediction using Graph Isomorphism Networks (GIN) for multi-task binary classification on the Tox21 dataset.
+A modular implementation of molecular property prediction using Graph Isomorphism Networks (GIN) for multi-task binary classification on the Tox21 dataset.
 
 ## Package Structure
 
@@ -104,10 +104,12 @@ results = trainer.train()
 
 ## Results
 
-The model achieves competitive performance on Tox21 molecular toxicity prediction tasks:
+The model achieves good performance on Tox21 molecular toxicity prediction tasks:
 - Multi-task AUC scores across 12 toxicity endpoints
 - Proper handling of missing labels through masking
 - Robust training with early stopping and checkpointing
+
+However, due to the high imbalance in the dataset, additional work is required to address this problem.
 
 ## Design Principles
 
